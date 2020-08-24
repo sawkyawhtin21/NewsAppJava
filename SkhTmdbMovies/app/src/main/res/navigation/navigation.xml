@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/tmdbFragment">
+
+    <fragment
+        android:id="@+id/tmdbFragment"
+        android:name="com.skh.skhtmdbmovies.fragment.TmdbFragment"
+        android:label="fragment_tmdb"
+        tools:layout="@layout/fragment_tmdb" >
+        <action
+            android:id="@+id/action_tmdbFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.skh.skhtmdbmovies.fragment.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
+</navigation>

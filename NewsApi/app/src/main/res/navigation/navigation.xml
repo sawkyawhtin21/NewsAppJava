@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/topHeadlinesragment">
+
+    <fragment
+        android:id="@+id/topHeadlinesragment"
+        android:name="com.skh.newsapi.fragment.TopHeadlinesragment"
+        android:label="fragment_top_headlinesragment"
+        tools:layout="@layout/fragment_top_headlinesragment" >
+        <action
+            android:id="@+id/action_topHeadlinesragment_to_secondragment"
+            app:destination="@id/secondragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondragment"
+        android:name="com.skh.newsapi.fragment.Secondragment"
+        android:label="fragment_secondragment"
+        tools:layout="@layout/fragment_secondragment" >
+        <argument
+            android:name="thorn"
+            app:argType="string" />
+    </fragment>
+</navigation>

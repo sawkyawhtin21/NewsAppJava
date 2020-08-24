@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804728439121",
+    "firebase_url": "https://sk-movies-efada.firebaseio.com",
+    "project_id": "sk-movies-efada",
+    "storage_bucket": "sk-movies-efada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804728439121:android:260085fae704d75787d370",
+        "android_client_info": {
+          "package_name": "com.skh.skmovies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804728439121-ilfom8r6iqjcmqh2732nvbleesir402n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-5dXwLNxkWaZ4xBTvrRqiPIcp3AJuUgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804728439121-ilfom8r6iqjcmqh2732nvbleesir402n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

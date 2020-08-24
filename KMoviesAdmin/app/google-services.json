@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "439162675324",
+    "firebase_url": "https://kmoviesadmin.firebaseio.com",
+    "project_id": "kmoviesadmin",
+    "storage_bucket": "kmoviesadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439162675324:android:d251b152fb9711e98b29f9",
+        "android_client_info": {
+          "package_name": "com.skh.kmoviesadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439162675324-nq8lu61nfsjktuqg37haf21924ip309m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIiS6IPqjvH_xHpUNH7LXzFM8aIogogFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439162675324-nq8lu61nfsjktuqg37haf21924ip309m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
